@@ -9,7 +9,7 @@ License: none (public domain)
 /* Modified by sayomajo*/
 
 :root {
-    --main-bg-color: #1c2833;
+    --main-bg-color: #10171d;
     --code-bg-color: #17202a;
     --accent-color: #C7254E;
     --tab-bg-hover: var(--code-bg-color);
@@ -33,7 +33,7 @@ time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
-    color: #BBB;
+    color: #dedede;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;

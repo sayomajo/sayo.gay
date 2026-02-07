@@ -20,7 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
-#    ("github", "https://github.com/gravelrodnova/"),
+#    ("github", "https://github.com/sayomajo/"),
 )
 
 DEFAULT_PAGINATION = 10

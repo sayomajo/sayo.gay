@@ -8,7 +8,7 @@ PATH = "content"
 
 TIMEZONE = 'America/New_York'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
 THEME = 'theme'
 
@@ -28,3 +28,10 @@ DEFAULT_PAGINATION = 10
 DISPLAY_HOME   = False
 
 DARK_LIGHT_SWITCHING_OFF = False
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+USE_FOLDER_AS_CATEGORY = False
+PATH_METADATA = r"(?P<path_no_ext>.*)\..*"
+ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = "{path_no_ext}.html"

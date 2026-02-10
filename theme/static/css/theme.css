@@ -27,6 +27,8 @@ hr {
 .header,
 .footer {
   padding: 1.5rem 0 .5rem;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cb60b3+0,c146a1+50,a80077+51,db36a4+100 */
+  background: linear-gradient(to bottom,  #cb60b3 0%,#c146a1 50%,#150718 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .header {

@@ -6,7 +6,7 @@ http://ethanschoonover.com/solarized
 
 SOLARIZED HEX      ROLE
 --------- -------- ------------------------------------------
-base03    #10171d  background
+base03    #140518  background
 base01    #586e75  comments / secondary content
 base1     #93a1a1  body text / default code / primary content
 orange    #cb4b16  constants
@@ -16,7 +16,7 @@ cyan      #2aa198  strings, numbers
 green     #859900  operators, other keywords
 */
 
-.highlight { color: #93a1a1; background-color: #17202a;}
+.highlight { color: #93a1a1; background-color: #140518;}
 .highlight .c { color: #586e75 } /* Comment */
 .highlight .err { color: #93a1a1 } /* Error */
 .highlight .g { color: #93a1a1 } /* Generic */

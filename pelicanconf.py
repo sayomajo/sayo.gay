@@ -1,6 +1,5 @@
 AUTHOR = 'sayo'
 SITENAME = 'sayo'
-SITEURL = 'https://sayo.gay'
 SITELOGO = 'https://raw.githubusercontent.com/gravelrodnova/gravelrodnova.github.io/refs/heads/main/content/images/Novas_oc_with_smoke.jpg'
 SITEDESCRIPTION = 'personal site, possibly a blog'
 
@@ -19,18 +18,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MENUITEMS = (
-#    ("github", "https://github.com/sayomajo/"),
-)
-
 DEFAULT_PAGINATION = 10
 
-DISPLAY_HOME   = False
+DISPLAY_HOME = False
 
 DARK_LIGHT_SWITCHING_OFF = False
-
-STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 
 USE_FOLDER_AS_CATEGORY = False
 PATH_METADATA = r"(?P<path_no_ext>.*)\..*"

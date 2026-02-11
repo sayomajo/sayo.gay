@@ -9,9 +9,9 @@ License: none (public domain)
 /* Modified by sayomajo*/
 
 :root {
-    --main-bg-color: #10171d;
-    --code-bg-color: #17202a;
-    --accent-color: #C7254E;
+    --main-bg-color: #140518;
+    --code-bg-color: #140518;
+    --accent-color: #dfe21c;
     --tab-bg-hover: var(--code-bg-color);
     --info-bg-color: var(--code-gb-color);
 }
@@ -297,13 +297,13 @@ nav a:hover {
     color: var(--accent-color);
 }
 nav li.selected a {
-    background-color: #15A9DB;
+    background: linear-gradient(to bottom, #cb60b3 0%,#c146a1 50%,#a80077 51%,#db36a4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #FFF;
 }
 .site_title {
     position: relative; 
     bottom: 15px; 
-    color: #15A9DB
+    color: #FFF
 }
 header h1 {
     font-size: 1.5em;
